@@ -6,28 +6,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Protifólio</title>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <link rel="stylesheet" href="styles/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="info">
-    <header>
-      <img src="" alt="">
-    <span>Hello World! Meu nome é <strong>Martina Santos</strong> e sou</span>
+  <header class="container">
+    <div id="info">
+      <div>
+        <img src="./assets/Avatar.png" alt="imagen de Martina Santos">
+        <i class="ph-bold ph-code"></i>
+        <i class="ph-bold ph-code"></i>
+      </div>
+    <span class="subtitle">Hello World! Meu nome é <strong>Martina Santos</strong> e sou</span>
 
-    <h1>Desenvolvedra Fullstack</h1>
-    <p>
+    <h1 class="title-h1">Desenvolvedra Fullstack</h1>
+    <p class="title-sm">
       Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
     </p>
-  </header>
-  <ul id="icons">
-    <li><img src="" alt="icon GitHub">GitHub </li>
-    <li><img src="" alt="icon HTML">  HTML</li>
-    <li><img src="" alt="icon CSS">CSS</li>
-    <li><img src="" alt="icon JavaScript">JavaScript</li>
-    <li><img src="" alt="icon React">React</li>
-    <li><img src="" alt="icon Node.js">Node.js</li>
-  </ul>
-</div>
+  </div>
+  <div class="arrow">
+    <ul id="icons" class="text-md">
+      <li><img src="./assets/icons/GitHub.svg" alt="icon GitHub">GitHub </li>
+      <li><img src="./assets/icons/HTML.svg" alt="icon HTML">  HTML</li>
+      <li><img src="./assets/icons/CSS.svg" alt="icon CSS">CSS</li>
+      <li><img src="./assets/icons/JavaScript.svg" alt="icon JavaScript">JavaScript</li>
+      <li><img src="./assets/icons/React.svg" alt="icon React">React</li>
+      <li><img src="./assets/icons/Node.js.svg" alt="icon Node.js">Node.js</li>
+    </ul>
+    <i class="ph-bold ph-caret-double-down"></i>
+  </div>
+</header>
 </body>
 </html>
