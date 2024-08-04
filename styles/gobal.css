@@ -19,7 +19,7 @@
 
   --font-Asap:"Asap", sans-serif;
   --title-lg: 700 56px/120% var(--font-Asap);
-  --title-lg: 700 56px/120% var(--font-Asap);
+  --title-md: 700 24px/120% var(--font-Asap);
   --title-sm: 700 16px/120% var(--font-Asap);
   
   --font-Incosolata:"Inconsolata", monospace;
@@ -33,7 +33,7 @@
 body{
   font: var(--text-sm);
   color: var(--gray-500);
-  background-color: var(--gray-400);
+  background-color: var(--gray-300);
 }
 
 a{
@@ -47,4 +47,15 @@ a:hover{
 
 h1, h2, h3{
   font: inherit;
+}
+
+
+strong{
+  color: var(--red);
+  font: var(--subtitle);
+}
+
+.container {
+  max-width: 1366px;
+  margin-inline: auto;
 }
