@@ -21,3 +21,15 @@
 .text-sm{
   font: var(--text-sm);
 }
+
+.grid{
+  display: grid;
+}
+
+.flow-colons-3{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-24{
+  gap: 24px;
+}
