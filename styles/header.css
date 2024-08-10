@@ -1,4 +1,4 @@
-header::before{
+#info::before{
   content: '';
   width: 100%;
   height: 750px;
